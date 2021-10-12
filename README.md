@@ -1,4 +1,5 @@
 # mvc-model-repository
+Öncelikle "ImageUrl" eklediğimiz için de unutmuyoruz ki wwwroot klasörümüzün içine de img klasörü eklemeyi de unutmamalıyız. wwwroot/img<br>
 Projemize model ve repository classları ekliyoruz.<br>
 Movie.cs class dosyamızı oluşturuyoruz.
 <pre>
@@ -27,7 +28,6 @@ namespace MovieApp.Models
 -Sanal bir repository, sanal bir database yapısı oluşturuyoruz.
 +Ekleme,Listeleme,Güncelleme,Silme vb.
 ```
-
 Repository.cs class dosyamızı oluşturuyoruz.
 <pre>
 using System;
